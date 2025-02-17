@@ -57,7 +57,7 @@ function ResetPasswordContent() {
 		setIsPending(false);
 	};
 
-	if (error === "invalid_token") {
+	if (error === "INVALID_TOKEN") {
 		return (
 			<div className="grow flex items-center justify-center p-4">
 				<Card className="w-full max-w-md">
